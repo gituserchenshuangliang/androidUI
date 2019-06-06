@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<!-- 图片浏览组件 -->
+    <ImageView 
+        android:id="@+id/A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/wa"/>
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="换图" />
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+    
+    <Button
+        android:id="@+id/E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条进度" />
+
+    <Button
+        android:id="@+id/F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="对话框" />
+     <Button
+        android:id="@+id/G"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条对话框" /> 
+    <!-- 进度条组件 -->
+	<ProgressBar 
+		 android:id="@+id/D"
+		 android:layout_width="600sp"
+		 android:layout_height="20sp"
+		 android:layout_gravity="center"
+		 style="?android:attr/progressBarStyleHorizontal"
+		 android:max="100"
+		 /> 
+</LinearLayout>

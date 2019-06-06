@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 文本组件 -->
+    <TextView 
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#00ff00"
+        android:text="文本:宽度继承屏幕宽度，高度自适应包含内容。"
+        />
+	<!-- 按钮组件  -->
+	<Button 
+	    android:id="@+id/B"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="发送"/>
+	<Button 
+	    android:id="@+id/B_a"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="清空"/>
+	<!-- 可编辑文本组件  -->
+	<EditText 
+	    android:id="@+id/C"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:maxLines="2"/>
+
+	<Button
+	    android:id="@+id/D"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="进入活动B" />
+
+</LinearLayout>
